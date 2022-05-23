@@ -5,10 +5,10 @@
 
 
 * Its ready for ESX and QBCORE
-- RegisterNetEvent('plt_delivery:Delivey')
+RegisterNetEvent('plt_delivery:Delivey')
 * You can integrate it into your framework by editing the server event.
 
-- TriggerEvent("plt_delivery:TakeOrders") 
+TriggerEvent("plt_delivery:TakeOrders") 
 * With the client side event, you can enable the UI to be opened from any other script you want.
 
 function singleNotify(type,msg,time)
