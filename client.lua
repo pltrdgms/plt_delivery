@@ -26,7 +26,7 @@ AddEventHandler('plt_delivery:OpenOrders', function(data,now)
 	local Orders = {}
 	for k,v in pairs(data) do
 		local streetName , crossingRoad = GetStreetNameAtCoord(v.coord.x,v.coord.y,v.coord.z)
-		local dist = math.floor(GetDistanceBetweenCoords(v.coord,GetEntityCoords(PlayerPedId()),true))
+		local dist = math.floor(GetDistanceBetweenCoords(v.coord.x,v.coord.y,v.coord.z,GetEntityCoords(PlayerPedId()),true))
 		local x = v
 		x.adres = GetStreetNameFromHashKey(streetName)
 		x.distance = dist.."m."
