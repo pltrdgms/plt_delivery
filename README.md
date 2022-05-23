@@ -1,7 +1,10 @@
-- Orders will be the same for all players, once a person receives the order, it will no longer appear in the others.
-- In the config, you can set the timing with which new orders will be placed, which items, how many pieces, price, duration and maximum number of orders will be ordered.
-- If players mark, scrip will receive a notification for each new order.
-- 0.00ms when out of use. 0.03 ms when in use.
+Orders will be the same for all players, once a person receives the order, it will no longer appear in the others.
+In the config, you can set the timing with which new orders will be placed, which items, how many pieces, price, duration and maximum number of orders will be ordered.
+If players mark, scrip will receive a notification for each new order.
+0.00ms when out of use. 0.03 ms when in use.
+
+open ui command is "openDelivery"
+close ui command if bugged "closeDelivery"
 
 
 * Its ready for ESX and QBCORE
