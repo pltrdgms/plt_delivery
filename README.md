@@ -3,8 +3,8 @@ In the config, you can set the timing with which new orders will be placed, whic
 If players mark, scrip will receive a notification for each new order.
 0.00ms when out of use. 0.03 ms when in use.
 
-open ui command is "openDelivery"
-close ui command if bugged "closeDelivery"
+- open ui command is "openDelivery"
+- close ui command if bugged "closeDelivery"
 
 
 * Its ready for ESX and QBCORE
