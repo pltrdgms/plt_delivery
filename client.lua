@@ -1,4 +1,5 @@
 PLT = plt_delivery
+U = PLT.U
 local blip 
 local imOnOrder
 playerPedId = 0
@@ -128,7 +129,7 @@ function SetBlip(coord)
 	SetBlipScale                (blip, 0.7)
 	SetBlipColour               (blip, 16742399)
 	BeginTextCommandSetBlipName ("STRING")
-	AddTextComponentString      ("Teslimat Noktası")
+	AddTextComponentString      (U["blip_name"])
 	EndTextCommandSetBlipName   (blip)
 end
 
