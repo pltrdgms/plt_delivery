@@ -18,3 +18,5 @@ function singleNotify(type,msg,time)
 	exports['mythic_notify']:DoCustomHudText(type,msg,time)
 end
 * You can use it in your own notification system by changing its function.
+* https://discord.gg/3h8tebmBeD
+* https://polat.tebex.io/
